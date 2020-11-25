@@ -1,2 +1,2 @@
-# learning
-html5_css3
+# basics
+working with html5 and css3
