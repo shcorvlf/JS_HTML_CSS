@@ -1,0 +1,54 @@
+body{
+    background-image: url("img/estrelas.jpeg") ;
+    font-family: arial;
+    font-size: 18px;
+    margin:0;
+    } 
+    .menu{ /*barra superior*/
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    margin-bottom: 50px;
+    }
+    .club{ /* barra superior canto esquerdo*/
+    background-color: white; 
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 25px;
+    }
+    .links{ /*barra superior canto direito*/
+    align-items: right;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    }
+    .caixa1{ /*caixa para colocar todos os textos*/
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 800px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .caixinha1{ /*botão QUERO ME JUNTAR À FORÇA*/
+    background-color: black;
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+    img{ /*yoda*/
+    height: 250px;
+    border-radius: 100px;
+    }
