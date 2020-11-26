@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS DOM</title> 
+    <style>
+            div#area{ /*todos os eventos aqui https://developer.mozilla.org/pt-BR/docs/Web/Events*/
+                font:normal 20pt Arial;
+                background:rgb(110, 114, 109);
+                color: white;
+                width: 200px;
+                height:200px;
+                line-height:200px;
+                text-align: center;
+                
+            }
+
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interaja 
+    </div>
+    <script>
+        var area = window.document.getElementById('area');
+        /*ao inves de colocar os eventos junto com a id da div e poluir o código:
+        onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"*/
+         area.addEventListener('click', clicar)
+         area.addEventListener('mouseenter', entrar)
+         area.addEventListener('mouseout', sair)
+        function clicar(){
+            area.innerText = 'Clicou!'
+            area.style.background = 'green'
+        }
+        function entrar(){
+            area.innerText = 'Entrou!'
+            area.style.background = 'blue'
+        }
+        function sair(){
+            area.innerText = 'Saiu!'
+            area.style.background = 'red'
+        }
+    </script>
+</body>
+</html>
