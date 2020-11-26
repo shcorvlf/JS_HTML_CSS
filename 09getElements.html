@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 09</title>
+    <style>
+        body{
+            background: blueviolet;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <H1> INICIANDO OS ESTUDOS COM DOM</H1>
+    <p> aqui vai o resultado</p>
+    <p>Aprendendo <strong>Javascript</strong>  no Curso em Vídeo</p>    
+    <div id="msg"> clique em mim</div>
+    <script>
+        //var p1=window.document.getElementsByTagName('p')[0] //seleciona todos os parágrafos [n]==> número do paragrafo se quiser especificar
+        //window.document.write('Está escrito assim: ' +p1.innerText)
+       // p1.style.color = 'blue'
+        //body.style.background(black);
+        //window.alert(p1.innerText)
+       // var d = window.document.getElementById('msg');
+        //d.style.background = 'green';
+        var d = window.document.querySelector('div#msg') // ('id.msg')
+        d.style.color = 'red'
+    </script>
+</body>
+</html>
